@@ -139,7 +139,8 @@ a{
   background: rgba(74, 123, 126, 0.7) url(https://preview.colorlib.com/theme/marian/assets/img/hero/h1_hero.jpg.webp); 
   background-size: cover; 
   background-blend-mode: multiply;
-  background-position: center center; 
+  background-position: center center;
+background-attachment:fixed;
 } 
 
 .home .item{
