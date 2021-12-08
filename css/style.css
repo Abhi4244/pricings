@@ -93,4 +93,125 @@ a{
   
   #menu-btn{ 
     display: initial; 
-  } .header .navbar{ position: absolute; top: 10%; right: 2rem; box-shadow: var(--box-shadow); width: 30rem; border-radius: .5rem; border: 2px solid #f9ab00; background-color: #1a191f; height: 38rem; box-shadow: .5rem .5rem 0 #f9ab00; transform: scale(0); transform-origin: top right; transition: 0.2s linear; } .header .navbar.active{ transform: scale(1); } .header .navbar a{ margin: 4rem; text-align: left; display: block; font-size: 2rem; } } @media (max-width: 450px){ html{ font-size: 50%; } } /* Navbar Section Ends */ /* home section starts */ .home{ height: 95vh; } .home #list1{ /* background: rgba(209, 137, 137, 0.7) url(https://preview.colorlib.com/theme/montana/img/banner/xbanner.png.pagespeed.ic.Fz8_Hc8pX8.jpg); */ background: rgba(74, 123, 126, 0.7) url(https://preview.colorlib.com/theme/marian/assets/img/hero/h1_hero.jpg.webp); background-size: cover; background-blend-mode: multiply; background-position: center center; } .home .item{ display: flex; align-items: center; margin: auto; gap: 5rem; flex-wrap: wrap; height: 95vh; padding: 0rem 9%; } .home .item .image{ flex: 1 1 35rem; } .home .item .image img{ height: 350px; width: 350px; object-fit: cover; border-radius: 2rem; margin-top: 1rem; } .home .item .content{ flex: 1 1 45rem; /* padding-left: 20rem; */ } .home .item .content h1{ font-size: 4.5rem; padding-bottom: 1rem; padding-top: 2rem; text-align: center; } .home .item .content h1 span{ color: #f9ab00; } .home .item .content p{ font-size: 1.8rem; padding: 1rem 0; padding-bottom: 3rem; text-align: center; } .home .item .buttons{ height: 5rem; text-align: center; } .home .item .content .home-btn1{ padding: 1rem 3rem; background-color: hsl(0, 94%, 66%); color: #fff; font-size: 1.4rem; border-radius: 2rem; transition: 0.2s linear; } .home .item .content .home-btn1:hover{ border: 2px solid #fff; background-color: transparent; color: #fff; } .home .item .content .home-btn2{ border: 2px solid #fff; padding: 1rem 4rem; background-color: transparent; color: #fff; font-size: 1.4rem; border-radius: 2rem; margin-left: 1rem; }
+  } 
+  
+  .header .navbar{
+    position: absolute; 
+    top: 10%; 
+    right: 2rem;
+    box-shadow: var(--box-shadow); 
+    width: 30rem; 
+    border-radius: .5rem; 
+    border: 2px solid #f9ab00;
+    background-color: #1a191f;
+    height: 38rem; 
+    box-shadow: .5rem .5rem 0 #f9ab00; 
+    transform: scale(0);
+    transform-origin: top right;
+    transition: 0.2s linear; 
+  } 
+  
+  .header .navbar.active{ 
+    transform: scale(1); 
+  } 
+  
+  .header .navbar a{ 
+    margin: 4rem; 
+    text-align: left; 
+    display: block; 
+    font-size: 2rem;
+  } 
+} 
+
+@media (max-width: 450px){ 
+  
+  html{ 
+    font-size: 50%; 
+  }
+} 
+/* Navbar Section Ends */ 
+/* home section starts */ 
+.home{ height: 95vh; } 
+
+.home #list1{ 
+  /* background: rgba(209, 137, 137, 0.7) url(https://preview.colorlib.com/theme/montana/img/banner/xbanner.png.pagespeed.ic.Fz8_Hc8pX8.jpg);
+  */ 
+  background: rgba(74, 123, 126, 0.7) url(https://preview.colorlib.com/theme/marian/assets/img/hero/h1_hero.jpg.webp); 
+  background-size: cover; 
+  background-blend-mode: multiply;
+  background-position: center center; 
+} 
+
+.home .item{
+  display: flex; 
+  align-items: center; 
+  margin: auto; 
+  gap: 5rem; 
+  flex-wrap: wrap; 
+  height: 95vh; 
+  padding: 0rem 9%; 
+} 
+.home .item .image{ 
+  flex: 1 1 35rem;
+} 
+
+.home .item .image img{ 
+  height: 350px;
+  width: 350px; 
+  object-fit: cover;
+  border-radius: 2rem;
+  margin-top: 1rem;
+} 
+
+.home .item .content{
+  flex: 1 1 45rem; 
+  /* padding-left: 20rem; */
+} 
+
+.home .item .content h1{ 
+  font-size: 4.5rem; 
+  padding-bottom: 1rem; 
+  padding-top: 2rem; 
+  text-align: center;
+} 
+
+.home .item .content h1 span{ 
+  color: #f9ab00; 
+} 
+
+.home .item .content p{ 
+  font-size: 1.8rem;
+  padding: 1rem 0; 
+  padding-bottom: 3rem; 
+  text-align: center;
+} 
+
+.home .item .buttons{ 
+  height: 5rem; 
+  text-align: center; 
+} 
+
+.home .item .content .home-btn1{ 
+  padding: 1rem 3rem;
+  background-color: hsl(0, 94%, 66%); 
+  color: #fff; 
+  font-size: 1.4rem; 
+  border-radius: 2rem;
+  transition: 0.2s linear; 
+} 
+
+.home .item .content .home-btn1:hover{ 
+  border: 2px solid #fff; 
+  background-color: transparent; 
+  color: #fff; 
+} 
+
+.home .item .content .home-btn2{ 
+  border: 2px solid #fff; 
+  padding: 1rem 4rem; 
+  background-color: transparent;
+  color: #fff; 
+  font-size: 1.4rem; 
+  border-radius: 2rem; 
+  margin-left: 1rem; 
+}
